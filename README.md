@@ -1,6 +1,13 @@
 [![Open Notebook](https://img.shields.io/badge/Open-Jupyter-orange.svg?logo=jupyter)](https://github.com/NBeibarys/CapstoneProject-Assessing-Professor-Effectiveness-APE--Using-Python/blob/main/analyses/analyses.ipynb)
 
 # Capstone project - Assessing Professor Effectiveness (APE)
+In this project, we apply statistical inference and supervised learning techniques to analyze patterns in student evaluations of professors using a large-scale, real-world dataset from `RateMyProfessor`. The analysis addresses 10 hypothesis-driven questions on rating behavior, gender differences, teaching difficulty, and qualitative teaching attributes, with the goal of extracting insights relevant to academic assessment, recommendation systems, and audience segmentation.
+
+Because the data are observational, survey-based, and contain ordinal and non-Gaussian variables, non-parametric statistical methods are used throughout, including Mann-Whitney U, Kolmogorov-Smirnov, and Kruskal-Wallis tests. Effect sizes are quantified using Cliff's delta with 95 percent confidence intervals obtained via bootstrapping. To control false positives across multiple hypothesis tests, a conservative per-test significance threshold of α = 0.005 is applied.
+
+Beyond hypothesis testing, the project extends the analysis using supervised learning models for regression and classification. These models predict average ratings, perceived difficulty, and “pepper” status using numerical features and normalized tag-based indicators. Model performance is evaluated using cross-validation and appropriate metrics such as R², RMSE, ROC-AUC, and class-balanced measures. Feature importance and SHAP values support interpretability.
+
+Overall, the project demonstrates a principled end-to-end workflow combining rigorous statistical testing, effect size estimation, and machine learning, with an emphasis on reproducibility, interpretability, and methodological correctness when working with observational rating data.
 
 ## Questions: 
 1) Activists have asserted that there is a strong gender bias in student evaluations of professors, with male professors enjoying a boost in rating from this bias. While this has been celebrated by ideologues, skeptics have pointed out that this research is of technically poor quality, either due to a low sample size – as small as n = 1 (Mitchell & Martin, 2018), failure to control for confounders such as teaching experience (Centra & Gaubatz, 2000) or obvious p-hacking (MacNell et al., 2015). We would like you to answer the question of whether there is evidence of a pro-male gender bias in this dataset.  
