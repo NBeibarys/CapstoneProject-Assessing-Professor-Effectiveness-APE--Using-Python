@@ -1,7 +1,7 @@
 [![Open Notebook](https://img.shields.io/badge/Open-Jupyter-orange.svg?logo=jupyter)](https://github.com/NBeibarys/CapstoneProject-Assessing-Professor-Effectiveness-APE--Using-Python/blob/main/analyses/analyses.ipynb)
 
 # Capstone project - Assessing Professor Effectiveness (APE)
-In this project, we apply statistical inference and supervised learning techniques to analyze patterns in student evaluations of professors using a large-scale, real-world dataset from `RateMyProfessor`. The analysis addresses 10 hypothesis-driven questions on rating behavior, gender differences, teaching difficulty, and qualitative teaching attributes, with the goal of extracting insights relevant to academic assessment, recommendation systems, and audience segmentation.
+In this project, I apply statistical inference and supervised learning techniques to analyze patterns in student evaluations of professors using a large-scale, real-world dataset from `RateMyProfessor`. The analysis addresses 10 hypothesis-driven questions on rating behavior, gender differences, teaching difficulty, and qualitative teaching attributes, with the goal of extracting insights relevant to academic assessment, recommendation systems, and audience segmentation.
 
 Because the data are observational, survey-based, and contain ordinal and non-Gaussian variables, non-parametric statistical methods are used throughout, including Mann-Whitney U, Kolmogorov-Smirnov, and Kruskal-Wallis tests. Effect sizes are quantified using Cliff's delta with 95 percent confidence intervals obtained via bootstrapping. To control false positives across multiple hypothesis tests, a conservative per-test significance threshold of α = 0.005 is applied.
 
