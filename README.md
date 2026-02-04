@@ -1,4 +1,4 @@
-[![Open Notebook](https://img.shields.io/badge/Open-Jupyter-orange.svg?logo=jupyter)](https://github.com/NBeibarys/Project-Hypothesis-Testing-of-MovieRatings-Using-Python/blob/main/analyses/project_code.ipynb)
+[![Open Notebook](https://img.shields.io/badge/Open-Jupyter-orange.svg?logo=jupyter)](https://github.com/NBeibarys/CapstoneProject-Assessing-Professor-Effectiveness-APE--Using-Python/blob/main/analyses/analyses.ipynb)
 
 # Capstone project - Assessing Professor Effectiveness (APE)
 
